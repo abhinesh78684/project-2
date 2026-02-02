@@ -1,11 +1,9 @@
-console.log("hello!")
-console.log("hii")
 let canvas= document.getElementById("canvas")
 let c=canvas.getContext("2d")
 
-window.onload= ()=>{
+canvasWidth=window.innerWidth
+canvasHeight=window.innerHeight
 
-}
-function draw(){
-     
-}
+     c.beginPath()
+     c.fillRect(400,400,40,40)
+     c.fillStyle="red"  
